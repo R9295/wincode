@@ -3641,9 +3641,11 @@ dependencies = [
 name = "wincode-fuzz"
 version = "0.0.0"
 dependencies = [
+ "agave-transaction-view",
  "agave-votor-messages",
  "bincode 1.3.3",
  "bincode 2.0.1",
+ "bytes",
  "libfuzzer-sys",
  "serde",
  "solana-address",
